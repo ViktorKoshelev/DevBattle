@@ -1,0 +1,47 @@
+table {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100%;
+	height: calc(90vh - 40px);
+	width: 80vw;
+	margin: auto;
+}
+td {
+	text-align: center;
+	border: 1px solid black;
+}
+.disabled{
+	background-color: #ddd;
+	color: #777;
+}
+body{
+	height: 100vh;
+}
+caption{
+	font-size: 30px;
+	font-weight: 500;
+	height: 40px;
+	margin-top: 10px;
+}
+.left-arrow{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url(../icons/glyphicons-211-arrow-left.png);
+    background-position: 3px 8px;
+    background-repeat: no-repeat;
+}
+.right-arrow{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url(../icons/glyphicons-212-arrow-right.png);
+    background-position: 3px 8px;
+    background-repeat: no-repeat;
+}
